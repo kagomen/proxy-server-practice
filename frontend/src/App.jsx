@@ -17,6 +17,7 @@ function App() {
   const [keyword, setKeyword] = useState('React')
   const [pageCount, setPageCount] = useState(null)
 
+  // ページネーションが必要ない場合の実装
   // const url = `${import.meta.env.VITE_SERVER_URL}/search/${keyword}`
   // const { data, error, isLoading, mutate } = useSWR(url, fetcher)
 
